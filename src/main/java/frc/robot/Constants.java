@@ -5,7 +5,7 @@ import edu.wpi.first.math.kinematics.SwerveDriveKinematics;
 import edu.wpi.first.math.util.Units;
 
 public final class Constants {
-
+//this sets the stats of the modules 
     public static final class ModuleConstants {
         public static final double kWheelDiameterMeters = Units.inchesToMeters(4);
         public static final double kDriveMotorGearRatio = 1 / 6.12;
@@ -18,6 +18,7 @@ public final class Constants {
     }
 
     public static final class DriveConstants {
+        
 
         public static final double kTrackWidth = Units.inchesToMeters(19);
         // Distance between right and left wheels
